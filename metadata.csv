@@ -17,16 +17,16 @@ Group,projects
 Tag,mdf-lending
 Modified,2020-10-17T21:22:17
 Giturl,https://github.com/sandiegodata/data-projects.git
-""
+
 Section,Contacts,Email,Organization,Url,
 Wrangler,Eric Busboom,eric@sandiegodata.org,San Diego Regional Data Library,http://sandiegodata.org,
-""
+
 Section,Documentation,Title,Description,,
 Documentation,README.md,Main documentation,,,
 Homepage,https://www.ffiec.gov/cra/craproducts.htm,CRA Data Products,,,
 Downloadpage,https://www.ffiec.gov/cra/craflatfiles.htm,Aggregate & Disclosure Flat Files,Links to download the files.,,
 Documentation,https://www.ffiec.gov/cra/pdf/17FlatDiscSpecs.pdf,Disclosure File Specifications,File specifications for the 2017 Disclosure Flat File,,
-""
+
 Section,References,Name,,,
 Reference,https://www.ffiec.gov/cra/xls/18exp_discl.zip,discl_18,,,
 Reference,https://www.ffiec.gov/cra/xls/17exp_discl.zip,discl_17,,,
@@ -37,10 +37,10 @@ Reference,https://www.ffiec.gov/cra/xls/13exp_discl.zip,discl_13,,,
 Reference,https://www.ffiec.gov/cra/xls/12exp_discl.zip,discl_12,,,
 Reference,https://www.ffiec.gov/cra/xls/11exp_discl.zip,discl_11,,,
 Reference,https://www.ffiec.gov/cra/xls/10exp_discl.zip,discl_10,,,
-""
+
 Section,Resources,Name,Schema,Prefix,Description
-Datafile,python:pylib#extract,sb_loan_orig,cra_disclosure,D1-1,"Table D1-1, small business disclosure records, for years 2010 to 2015 inclusive"
-""
+Datafile,python:pylib#extract,sb_loan_orig,cra_disclosure,D1-1,"Table D1-1, small business disclosure records, for years 2010 to current "
+
 Section,Schema,DataType,Width,Description,
 Table,cra_disclosure,,,,
 Table.Column,table_id,text,5,Value is D1-1,
